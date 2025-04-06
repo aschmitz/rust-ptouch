@@ -191,7 +191,7 @@ impl Media {
         use Media::*;
 
         match self {
-            Tze6mm | Tze9mm | Tze12mm | Tze18mm | Tze24mm | Tze36mm => true,
+            Tze4mm | Tze6mm | Tze9mm | Tze12mm | Tze18mm | Tze24mm | Tze36mm => true,
             _ => false,
         }
     }
